@@ -97,6 +97,8 @@ start()
 ```
 So change the x,y location of your xcode's simulate button. LOL don't ask me your x,y, find it and test it by yourself, to have it easy when adjusting your x,y, you may set the sleep time longer among loops :) more tip: the loop will stop if you close the game controller as it looks for the active state on game controller, so please change the urlopen address here too with your game controller's ip.
 
+**Tip:** *It's easy to find your x,y on screenshot. Make screenshot just after you click on location simulate button. Be sure that your Debug Area is in correct state.*
+
 ## Overall flow
 1. you provide location data on game controller  
 2. receive it and generate gpx file constantly when you move  
