@@ -12,6 +12,13 @@ Clone this xcode project and run on your iphone / ipad, this app actually perfor
 ```
 This is what the app response via port 80 by http, so be sure to connect the iphone / ipad to your wifi network in order to gain access.
 
+Tip: Look at message like 
+```
+GCDWebServer started on port 80 and reachable at http://10.50.100.174/
+```
+in Xcode log to get correct controller's ip. 
+It will be useful during next steps.
+
 ## Get controller message
 ```python
 import xml.etree.cElementTree as ET
